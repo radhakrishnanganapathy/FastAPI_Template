@@ -13,5 +13,5 @@ app = FastAPI(
 @app.get('/')
 def start_up():
      return ({'I AM':'Alive'})
-
+#test
 app.include_router(api_router,prefix='/api')
